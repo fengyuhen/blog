@@ -4,8 +4,8 @@
 
 # Site
 title: 秉烛夜游
-subtitle: Pain is inevitable, suffering is optional
-description: 
+subtitle: Pain is inevit .able, suffering is optional
+description: 昼短苦夜长，何不秉烛游
 author: Zhao Yan
 avatar: /uploads/avatar.jpg
 language: zh-Hans
@@ -69,4 +69,7 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repository: https://github.com/Aierui/aierui.github.io.git
+  branch: master
+  plugins: -hexo-generator-feed
